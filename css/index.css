@@ -223,7 +223,6 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    /* background-color: red; */
 }
 
 .tileText{
@@ -260,16 +259,9 @@ header{
 }
 
 .bottomContainer{
-    
+    width:95%;
     margin-bottom: 30px;
+    display: flex;
+    flex-flow: column wrap;
 }
 
-.container.about-page{
-    background-color: red;
-    width: 800px;
-}
-
-/* footer{
-    margin-left: 19%;
-    margin-right: 19%;
-} */
