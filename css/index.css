@@ -222,4 +222,39 @@ header{
 .gallery{
     display: flex;
     flex-flow: row wrap;
+    /* background-color: red; */
+}
+
+.tileText{
+    width: 40%;
+}
+
+.learnMoreButtons{
+    background-color: white;
+    border: 4px black solid;
+    height: 40px;
+    width: 120px;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.oneTile{
+    /* background-color: blue; */
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    border-bottom: dashed black 2px;
+    padding-bottom: 2%;
+    margin-bottom: 30px;
+}
+
+.tileHeader{
+    margin-top: 10px;
+}
+.tileText{
+    width: 90%;
+}
+
+.footerNav{
+    /* width: 60%; */
 }
