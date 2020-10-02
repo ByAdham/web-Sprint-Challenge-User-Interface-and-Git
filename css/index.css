@@ -215,5 +215,11 @@ header{
     flex-flow: column wrap;
     justify-content: space-evenly;
     padding: 20px;
+    margin-bottom: 10px;
     border-bottom: dashed black 2px;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
 }
