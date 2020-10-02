@@ -222,6 +222,7 @@ header{
 .gallery{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
     /* background-color: red; */
 }
 
@@ -240,13 +241,16 @@ header{
 }
 .oneTile{
     /* background-color: blue; */
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-flow: column;
     border-bottom: dashed black 2px;
-    padding-bottom: 2%;
     margin-bottom: 30px;
 }
+
+/* .oneTile.right{
+    margin-left: 20px;
+} */
 
 .tileHeader{
     margin-top: 10px;
@@ -255,6 +259,17 @@ header{
     width: 90%;
 }
 
-.footerNav{
-    /* width: 60%; */
+.bottomContainer{
+    
+    margin-bottom: 30px;
 }
+
+.container.about-page{
+    background-color: red;
+    width: 800px;
+}
+
+/* footer{
+    margin-left: 19%;
+    margin-right: 19%;
+} */
