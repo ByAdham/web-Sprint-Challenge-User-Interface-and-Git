@@ -162,12 +162,12 @@ footer nav a {
 header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
     width: 100%;
-    margin: 30px;
-    /* margin: 0 auto; */
-}
+    margin-bottom: 30px;
+    margin-top: 30px;
+    }
 
 .headerDiv a{
     color: black;
@@ -263,5 +263,6 @@ header{
     margin-bottom: 30px;
     display: flex;
     flex-flow: column wrap;
+
 }
 
