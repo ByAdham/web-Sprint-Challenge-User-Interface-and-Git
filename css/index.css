@@ -144,3 +144,125 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Start here */
+/* body{
+    margin: 10px 25px 0px;
+} */
+
+.headerDiv{
+    display: flex;
+    flex-flow: column wrap;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    }
+
+.headerDiv a{
+    color: black;
+    text-decoration: none;
+
+}
+
+/* Styling individual boxes */
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+/* ---Done with the index.html styling here. Below starts about.html styling */
+.headerText{
+    /* border: red solid; */
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: dashed black 2px;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.tileText{
+    width: 40%;
+}
+
+.learnMoreButtons{
+    background-color: white;
+    border: 4px black solid;
+    height: 40px;
+    width: 120px;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.oneTile{
+    /* background-color: blue; */
+    width: 45%;
+    display: flex;
+    flex-flow: column;
+    border-bottom: dashed black 2px;
+    margin-bottom: 30px;
+}
+
+/* .oneTile.right{
+    margin-left: 20px;
+} */
+
+.tileHeader{
+    margin-top: 10px;
+}
+.tileText{
+    width: 90%;
+}
+
+.bottomContainer{
+    width:95%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+

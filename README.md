@@ -33,14 +33,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+<!-- I would say it is the group of elements in HTML that have a meaning both to the browser and to the viewer i.e. it tells something about its content. An example of semantic is a form or a secion which describe what they do. An example of non-semantic is a div or a span which are abstract forms of elements and do not describe their content in their name. It is important to use semantic elements as much as possible to improve search engine optimization and discovery. -->
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+<!-- 1. Display block gives an element an entire line and starts the next element on a new line even if they are line-level elements 
+     2. Display inline nests block-level elements inside the same line -->
 
 3. What are the 4 areas of the box model?
+<!-- Border, Margin, Padding, Content -->
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+<!-- The opposite axis to the main one. Default is vertical but can be changed using flex-direction or flex-flow -->
 
 5. Explain why git is valuable to a team of developers.
+<!-- Git helps do 3 critical things: version control, multi-developer work and backing up your code away from the local environment. With version control you can revert back to older versions when needed to undo changes or make edits. With multi-developer you can have branches for everyone who can work indendently on different pieces and then merge at the end if the work is approved among them. Finally, with remote repos like on Github you can back your code up in order to avoid risk of loss if your local machine was to get lost or stolen-->
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
